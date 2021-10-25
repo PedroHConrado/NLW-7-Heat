@@ -22,7 +22,6 @@ export function MessageList() {
             setMessages(response.data)
         })
     }, []);
-    console.log(messages)
 
     return (
         <div className={styles.messageListWrapper}>
